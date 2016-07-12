@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>demo</title>
+		<link rel="stylesheet" type="text/css" href="css/loader.css"/>
+	</head>
+	<body>
+		<input type="button" name="loading" id="loading" value="加载更多" />
+	</body>
+	<script src="js/loader.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$("#loading").click(function(){
+				 loader.loading({ className: 'ball-spin-fade-loader', delay: 1000});
+				  loader.close();
+			})
+		})
+	</script>
+</html>
