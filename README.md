@@ -6,7 +6,7 @@ look this pic:
 ![image](https://github.com/wawsc5354524/LLLoader/blob/master/Loader/img/img.jpg)
 
 
-##How to ues
+##How to use
 ```html
 <!DOCTYPE html>
 <html>
