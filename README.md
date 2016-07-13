@@ -1,9 +1,9 @@
 # LLLoader
 
 This is an animation library, used as an animation effects of load. Draw lessons from the online most of the CSS  code, JS for encapsulation.
-look this pic:
+##Show
 
-![image](https://github.com/wawsc5354524/LLLoader/blob/master/Loader/img/img.jpg)
+![image](https://github.com/wawsc5354524/LLLoader/blob/master/Loader/img/animation.gif)
 
 
 ##How to use
@@ -64,3 +64,4 @@ look this pic:
 'semi-circle-spin'<br/>
 
 
+#Enjoy it!I hope you love it:)
