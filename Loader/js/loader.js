@@ -1,11 +1,8 @@
 var loader = (function () {
     function createMask() {
-        var scrollWidth = document.documentElement.scrollWidth || document.body.scrollWidth;
-        var scrollHeight = document.documentElement.scrollHeight || document.body.scrollHeight;
+        var scrollWidth = document.documentElement.clientWidth || document.body.clientWidth;
+        var scrollHeight = document.documentElement.clientHeight || document.body.clientHeight;
         var availHeight = window.screen.availHeight;
-        if (scrollHeight < availHeight) {
-            scrollHeight = availHeight;
-        }
         var oMask = document.createElement("div");
         oMask.id = "mask";
         oMask.style.height = scrollHeight + "px";
