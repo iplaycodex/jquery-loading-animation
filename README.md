@@ -13,18 +13,26 @@ This is an animation library, used as an animation effects of load. Draw lessons
 	<head>
 		<meta charset="utf-8" />
 		<title>demo</title>
+		<!--include css file-->
 		<link rel="stylesheet" type="text/css" href="css/loader.css"/>
 	</head>
 	<body>
 		<input type="button" name="loading" id="loading" value="LoadMore" />
 	</body>
+	<!--js file-->
 	<script src="js/loader.js" type="text/javascript" charset="utf-8"></script>
+	<!--need jq file-->
 	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
 	<script type="text/javascript">
 		$(function(){
+			// trigger
 			$("#loading").click(function(){
+				//start loading animation
+				//parameterOne className,parameterTwo delayTime
 				 loader.loading({ className: 'ball-clip-rotate-multiple', delay: 1000});
-				  loader.close();
+				 
+				 //end loading animation
+				 loader.close();
 			})
 		})
 	</script>
