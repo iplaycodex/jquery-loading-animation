@@ -7,47 +7,60 @@ look this pic:
 
 
 ##How to ues
-```javascript
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>demo</title>
+		<link rel="stylesheet" type="text/css" href="css/loader.css"/>
+	</head>
+	<body>
+		<input type="button" name="loading" id="loading" value="LoadMore" />
+	</body>
+	<script src="js/loader.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script type="text/javascript">
 		$(function(){
 			$("#loading").click(function(){
-			   //start loading
-				 loader.loading({ className: 'ball-clip-rotate-multiple', delay: 1000});//parameterOne animationName parameterTwo delayTime,ms.
-				 
-				  //end loading
+				 loader.loading({ className: 'ball-clip-rotate-multiple', delay: 1000});
 				  loader.close();
 			})
 		})
+	</script>
+</html>
+
 ```
 
 ##Optional parameters
 
 'ball-pulse'<br/>
 'ball-grid-pulse'<br/>
-'ball-clip-rotate'
-'ball-clip-rotate-pulse'
-'square-spin'
-'ball-clip-rotate-multiple'
-'ball-pulse-rise'
-'ball-rotate'
-'cube-transition'
-'ball-zig-zag'
-'ball-zig-zag-deflect'
-'ball-triangle-path'
-'ball-scale'
-'line-scale'
-'line-scale-party'
-'ball-scale-multiple'
-'ball-pulse-sync'
-'ball-beat'
-'line-scale-pulse-out'
-`line-scale-pulse-out-rapid'
-'ball-scale-ripple'
-'ball-scale-ripple-multiple'
-'ball-spin-fade-loader'
-'line-spin-fade-loader'
-'triangle-skew-spin'
-'pacman'
-'ball-grid-beat'
-'semi-circle-spin'
+'ball-clip-rotate'<br/>
+'ball-clip-rotate-pulse'<br/>
+'square-spin'<br/>
+'ball-clip-rotate-multiple'<br/>
+'ball-pulse-rise'<br/>
+'ball-rotate'<br/>
+'cube-transition'<br/>
+'ball-zig-zag'<br/>
+'ball-zig-zag-deflect'<br/>
+'ball-triangle-path'<br/>
+'ball-scale'<br/>
+'line-scale'<br/>
+'line-scale-party'<br/>
+'ball-scale-multiple'<br/>
+'ball-pulse-sync'<br/>
+'ball-beat'<br/>
+'line-scale-pulse-out'<br/>
+`line-scale-pulse-out-rapid'<br/>
+'ball-scale-ripple'<br/>
+'ball-scale-ripple-multiple'<br/>
+'ball-spin-fade-loader'<br/>
+'line-spin-fade-loader'<br/>
+'triangle-skew-spin'<br/>
+'pacman'<br/>
+'ball-grid-beat'<br/>
+'semi-circle-spin'<br/>
 
 
