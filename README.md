@@ -21,8 +21,8 @@ look this pic:
 
 ##Optional parameters
 
-'ball-pulse'
-'ball-grid-pulse'
+'ball-pulse'<br/>
+'ball-grid-pulse'<br/>
 'ball-clip-rotate'
 'ball-clip-rotate-pulse'
 'square-spin'
