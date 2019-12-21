@@ -1,12 +1,12 @@
-# LLLoader
+## jquery-loading-animation
 
 This is an animation library, used as an animation effects of load. Draw lessons from the online most of the CSS  code, JS for encapsulation.
-##Show
+### Show
 
 ![image](https://github.com/wawsc5354524/LLLoader/blob/master/Loader/img/animation.gif)
 
 
-##How to use
+### How to use
 ```html
 <!DOCTYPE html>
 <html>
@@ -40,7 +40,7 @@ This is an animation library, used as an animation effects of load. Draw lessons
 
 ```
 
-##Optional parameters
+### Optional parameters
 
 'ball-pulse'<br/>
 'ball-grid-pulse'<br/>
@@ -72,4 +72,4 @@ This is an animation library, used as an animation effects of load. Draw lessons
 'semi-circle-spin'<br/>
 
 
-#Enjoy it!I hope you love it:)
+#### Enjoy it!I hope you love it:)
